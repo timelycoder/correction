@@ -1,0 +1,189 @@
+@media only screen and (max-width: 460px) {
+    .menubar {
+        padding-top: 1% !important;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .menubar .menu-button {
+        margin-top: 15% !important;
+    }
+
+    .menubar {
+        width: 9% !important;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    * {
+        font-size: 14px !important;
+    }
+
+    #pre {
+        background-size: 25% !important;
+    }
+
+    .logo h1 {
+        font-size: 20px !important;
+    }
+
+    .logo a h1 span {
+        font-size: 18px !important;
+        font-weight: 300;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+    
+     .col-2 {
+        width: 100%;
+    }
+
+    .items {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .menubar {
+        width: 7%;
+    }
+
+    .menubar .menu-button {
+        padding: 10% 2% 20% 2% !important;
+        margin-top: -1% !important;
+    }
+
+    .gallery a {
+        padding: 1% 0 5% 0;
+    }
+
+    .gallery h2 {
+        font-size: 18px !important;
+    }
+
+    .explore h1 {
+        margin-left: 0;
+        font-size: 40px !important;
+    }
+
+    .explore .line {
+        margin-left: 0;
+    }
+
+    .explore p {
+        margin-left: 0;
+    }
+
+    .explore a {
+        margin-left: 0;
+    }
+
+    .col-3 {
+        width: 100%;
+    }
+
+    .small,
+    .big {
+        padding: 1% 0;
+    }
+
+    .small img,
+    .big img {
+        height: 250px;
+    }
+
+    
+    
+
+    
+    textarea {
+        border: 1px solid #000000b7 !important;
+        transition: all 1s ease !important;
+    }
+
+    textarea:focus {
+        border: 1px solid rgb(43, 43, 255) !important;
+        box-shadow: 0 0 2px solid #000 !important;
+    }
+
+    
+    .banner h2 {
+        font-size: 15px !important;
+    }
+
+    .banner h1 {
+        font-size: 35px !important;
+    }
+
+    .upcoming h1 {
+        font-size: 25px !important;
+    }
+
+    .items h2 {
+        font-size: 20px !important;
+    }
+
+    #about h2 {
+        font-size: 20px !important;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .container {
+        width: 95%;
+    }
+
+    .logo {
+        width: 80%;
+    }
+
+    nav {
+        width: 100%;
+        display: none;
+    }
+
+    nav ul {
+        text-align: left;
+    }
+
+    nav ul li {
+        display: block;
+    }
+
+    .menubar .menu-button {
+        display: block;
+        padding: 10% 2% 25% 2%;
+        margin-top: 25%;
+    }
+
+}
+
+@media only screen and (max-width: 1024px) {
+    .container {
+        width: 90%;
+    }
+
+    #pre {
+        background-size: 15%;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .container {
+        width: 70%;
+    }
+}
+
+@media only screen and (min-width: 1700px) {
+    .container {
+        width: 60%;
+    }
+}
+
+@media only screen and (min-width: 2000px) {
+    .container {
+        width: 50%;
+    }
+}
